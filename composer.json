@@ -1,0 +1,25 @@
+{
+    "name": "Gi/hello-world",
+    "description": "contoh modul hello world",
+    "version": "1.0.0",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "authors",
+            "email": "authors@email.co.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Gi\\HelloWorld\\" : "src/"             
+        }
+    },
+    
+    "require": {
+    },
+
+    "scripts" : {
+        
+    }
+}
